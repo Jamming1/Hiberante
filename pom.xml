@@ -12,7 +12,7 @@
     <artifactId>Hibernate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Hibernate</name>
-    <description>ese6</description>
+    <description>Hibernate</description>
     <properties>
         <java.version>21</java.version>
     </properties>

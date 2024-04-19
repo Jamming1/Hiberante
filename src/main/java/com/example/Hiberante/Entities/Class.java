@@ -1,4 +1,4 @@
-package com.example.Hiberante;
+package com.example.Hiberante.Entities;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -10,10 +10,11 @@ import lombok.*;
 @Table
 @Data
 
-public class Class {
+public class Class extends BaseEntityData{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     private String title;
     private String description;
 }
